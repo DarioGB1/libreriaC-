@@ -164,3 +164,4 @@ C:\Users\dario\Desktop\libreria\obj\Debug\net9.0\refint\libreria.dll
 C:\Users\dario\Desktop\libreria\obj\Debug\net9.0\libreria.pdb
 C:\Users\dario\Desktop\libreria\obj\Debug\net9.0\libreria.genruntimeconfig.cache
 C:\Users\dario\Desktop\libreria\obj\Debug\net9.0\ref\libreria.dll
+C:\Users\dario\Desktop\libreria\obj\Debug\net9.0\libreria.sourcelink.json

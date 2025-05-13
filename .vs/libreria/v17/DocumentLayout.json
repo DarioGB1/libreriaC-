@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\dario\\Desktop\\libreria\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|c:\\users\\dario\\desktop\\libreria\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|solutionrelative:models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|c:\\users\\dario\\desktop\\libreria\\models\\editorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|solutionrelative:models\\editorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +15,32 @@
       "RelativeMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|c:\\users\\dario\\desktop\\libreria\\controllers\\editorialescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|solutionrelative:controllers\\editorialescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|c:\\users\\dario\\desktop\\libreria\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|c:\\users\\dario\\desktop\\libreria\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|solutionrelative:controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|c:\\users\\dario\\desktop\\libreria\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|solutionrelative:controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|c:\\users\\dario\\desktop\\libreria\\libreria.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|solutionrelative:libreria.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|c:\\users\\dario\\desktop\\libreria\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|solutionrelative:models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|c:\\users\\dario\\desktop\\libreria\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|c:\\users\\dario\\desktop\\libreria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D534DA8-CFC4-271F-972D-A4C2891934A7}|libreria.csproj|c:\\users\\dario\\desktop\\libreria\\models\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,34 +54,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 14,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Editorial.cs",
-              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\libreria\\Models\\Editorial.cs",
-              "RelativeDocumentMoniker": "Models\\Editorial.cs",
-              "ToolTip": "C:\\Users\\dario\\Desktop\\libreria\\Models\\Editorial.cs",
-              "RelativeToolTip": "Models\\Editorial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T13:06:25.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\libreria\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\dario\\Desktop\\libreria\\Models\\Cliente.cs",
-              "RelativeToolTip": "Models\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T13:06:23.643Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -80,7 +78,111 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransaccionesController.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\libreria\\controllers\\TransaccionesController.cs",
+              "RelativeDocumentMoniker": "controllers\\TransaccionesController.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\libreria\\controllers\\TransaccionesController.cs",
+              "RelativeToolTip": "controllers\\TransaccionesController.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAqwL4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:16:07.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LibrosController.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\libreria\\controllers\\LibrosController.cs",
+              "RelativeDocumentMoniker": "controllers\\LibrosController.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\libreria\\controllers\\LibrosController.cs",
+              "RelativeToolTip": "controllers\\LibrosController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwFcAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:05:25.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditorialesController.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\libreria\\controllers\\EditorialesController.cs",
+              "RelativeDocumentMoniker": "controllers\\EditorialesController.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\libreria\\controllers\\EditorialesController.cs",
+              "RelativeToolTip": "controllers\\EditorialesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:00:18.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\libreria\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\libreria\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-13T14:03:36.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\libreria\\controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\libreria\\controllers\\ClientesController.cs",
+              "RelativeToolTip": "controllers\\ClientesController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAkwEwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:50:10.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\libreria\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\libreria\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:23:34.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Editorial.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\libreria\\Models\\Editorial.cs",
+              "RelativeDocumentMoniker": "Models\\Editorial.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\libreria\\Models\\Editorial.cs",
+              "RelativeToolTip": "Models\\Editorial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:06:25.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\Desktop\\libreria\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\dario\\Desktop\\libreria\\Models\\Cliente.cs",
+              "RelativeToolTip": "Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:06:23.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "libreria.csproj",
               "DocumentMoniker": "C:\\Users\\dario\\Desktop\\libreria\\libreria.csproj",
               "RelativeDocumentMoniker": "libreria.csproj",
@@ -93,19 +195,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Libro.cs",
               "DocumentMoniker": "C:\\Users\\dario\\Desktop\\libreria\\Models\\Libro.cs",
               "RelativeDocumentMoniker": "Models\\Libro.cs",
               "ToolTip": "C:\\Users\\dario\\Desktop\\libreria\\Models\\Libro.cs",
               "RelativeToolTip": "Models\\Libro.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB8AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T04:24:55.051Z"
+              "WhenOpened": "2025-05-13T04:24:55.051Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "LibraryContext.cs",
               "DocumentMoniker": "C:\\Users\\dario\\Desktop\\libreria\\Models\\LibraryContext.cs",
               "RelativeDocumentMoniker": "Models\\LibraryContext.cs",
