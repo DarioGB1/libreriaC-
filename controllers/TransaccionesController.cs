@@ -77,34 +77,41 @@ namespace libreria.Controllers
                 .ToListAsync();
         }
 
+        // Clase DTO para crear transacciones
+        public class TransaccionCreateDto
+        {
+            public int ClienteId { get; set; }
+            public int LibroId { get; set; }
+            public DateTime? FechaCompra { get; set; }
+            public int Cantidad { get; set; }
+        }
+
         // POST: api/Transacciones
         [HttpPost]
-        public async Task<ActionResult<Transaccion>> PostTransaccion(Transaccion transaccion)
+        public async Task<ActionResult<Transaccion>> PostTransaccion(TransaccionCreateDto transaccionDto)
         {
             // Check if client exists
-            if (!await _context.Clientes.AnyAsync(c => c.ClienteId == transaccion.ClienteId))
+            if (!await _context.Clientes.AnyAsync(c => c.ClienteId == transaccionDto.ClienteId))
             {
                 return BadRequest("El cliente especificado no existe");
             }
 
             // Check if book exists
-            var libro = await _context.Libros.FindAsync(transaccion.LibroId);
+            var libro = await _context.Libros.FindAsync(transaccionDto.LibroId);
             if (libro == null)
             {
                 return BadRequest("El libro especificado no existe");
             }
 
-            // Set purchase date to now if not provided
-            if (transaccion.FechaCompra == default)
+            var transaccion = new Transaccion
             {
-                transaccion.FechaCompra = DateTime.Now;
-            }
-
-            // Set default quantity if not provided
-            if (transaccion.Cantidad <= 0)
-            {
-                transaccion.Cantidad = 1;
-            }
+                ClienteId = transaccionDto.ClienteId,
+                LibroId = transaccionDto.LibroId,
+                // Set purchase date to now if not provided
+                FechaCompra = transaccionDto.FechaCompra ?? DateTime.Now,
+                // Set default quantity if not provided
+                Cantidad = transaccionDto.Cantidad <= 0 ? 1 : transaccionDto.Cantidad
+            };
 
             // Calculate total based on book price and quantity
             transaccion.Total = libro.Precio * transaccion.Cantidad;
@@ -112,41 +119,61 @@ namespace libreria.Controllers
             _context.Transaccions.Add(transaccion);
             await _context.SaveChangesAsync();
 
+            // Load related entities for the response
+            await _context.Entry(transaccion).Reference(t => t.Cliente).LoadAsync();
+            await _context.Entry(transaccion).Reference(t => t.Libro).LoadAsync();
+
             return CreatedAtAction("GetTransaccion", new { id = transaccion.TransaccionId }, transaccion);
+        }
+
+        // Clase DTO para actualizar transacciones
+        public class TransaccionUpdateDto
+        {
+            public int TransaccionId { get; set; }
+            public int ClienteId { get; set; }
+            public int LibroId { get; set; }
+            public DateTime? FechaCompra { get; set; }
+            public int Cantidad { get; set; }
         }
 
         // PUT: api/Transacciones/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutTransaccion(int id, Transaccion transaccion)
+        public async Task<IActionResult> PutTransaccion(int id, TransaccionUpdateDto transaccionDto)
         {
-            if (id != transaccion.TransaccionId)
+            if (id != transaccionDto.TransaccionId)
             {
                 return BadRequest();
             }
 
             // Check if client exists
-            if (!await _context.Clientes.AnyAsync(c => c.ClienteId == transaccion.ClienteId))
+            if (!await _context.Clientes.AnyAsync(c => c.ClienteId == transaccionDto.ClienteId))
             {
                 return BadRequest("El cliente especificado no existe");
             }
 
             // Check if book exists
-            var libro = await _context.Libros.FindAsync(transaccion.LibroId);
+            var libro = await _context.Libros.FindAsync(transaccionDto.LibroId);
             if (libro == null)
             {
                 return BadRequest("El libro especificado no existe");
             }
 
-            // Set default quantity if not provided
-            if (transaccion.Cantidad <= 0)
+            // Get existing transaction
+            var transaccion = await _context.Transaccions.FindAsync(id);
+            if (transaccion == null)
             {
-                transaccion.Cantidad = 1;
+                return NotFound();
             }
 
-            // Calculate total based on book price and quantity
+            // Update transaction properties
+            transaccion.ClienteId = transaccionDto.ClienteId;
+            transaccion.LibroId = transaccionDto.LibroId;
+            if (transaccionDto.FechaCompra.HasValue)
+            {
+                transaccion.FechaCompra = transaccionDto.FechaCompra.Value;
+            }
+            transaccion.Cantidad = transaccionDto.Cantidad <= 0 ? 1 : transaccionDto.Cantidad;
             transaccion.Total = libro.Precio * transaccion.Cantidad;
-
-            _context.Entry(transaccion).State = EntityState.Modified;
 
             try
             {

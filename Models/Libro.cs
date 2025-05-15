@@ -29,7 +29,7 @@ public partial class Libro
 
     [ForeignKey("EditorialId")]
     [InverseProperty("Libros")]
-    public virtual Editorial Editorial { get; set; } = null!;
+    public virtual Editorial? Editorial { get; set; }
 
     [InverseProperty("Libro")]
     public virtual ICollection<Transaccion> Transaccions { get; set; } = new List<Transaccion>();

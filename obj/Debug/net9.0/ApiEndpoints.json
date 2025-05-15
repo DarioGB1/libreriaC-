@@ -407,8 +407,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "transaccion",
-        "Type": "libreria.Models.Transaccion",
+        "Name": "transaccionDto",
+        "Type": "libreria.Controllers.TransaccionesController\u002BTransaccionCreateDto",
         "IsRequired": true
       }
     ],
@@ -464,8 +464,8 @@
         "IsRequired": true
       },
       {
-        "Name": "transaccion",
-        "Type": "libreria.Models.Transaccion",
+        "Name": "transaccionDto",
+        "Type": "libreria.Controllers.TransaccionesController\u002BTransaccionUpdateDto",
         "IsRequired": true
       }
     ],
